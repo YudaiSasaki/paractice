@@ -14,3 +14,43 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('articles', 'ArticleController');
+
+Route::get('articles/{id}/delete', [
+    'as' => 'articles.delete',
+    'uses' => 'ArticleController@destroy',
+]);
+
+
+Route::resource('articles', 'ArticleController');
+
+Route::get('articles/{id}/delete', [
+    'as' => 'articles.delete',
+    'uses' => 'ArticleController@destroy',
+]);
+
+
+Route::resource('articles', 'ArticleController');
+
+Route::get('articles/{id}/delete', [
+    'as' => 'articles.delete',
+    'uses' => 'ArticleController@destroy',
+]);
+
+
+Route::resource('articles', 'ArticleController');
+
+Route::get('articles/{id}/delete', [
+    'as' => 'articles.delete',
+    'uses' => 'ArticleController@destroy',
+]);
+
+
+Route::resource('articles', 'ArticleController');
+
+Route::get('articles/{id}/delete', [
+    'as' => 'articles.delete',
+    'uses' => 'ArticleController@destroy',
+]);
