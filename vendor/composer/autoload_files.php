@@ -18,4 +18,5 @@ return array(
     'e23faeee409e941dc9b4c80386209c39' => $vendorDir . '/laracasts/flash/src/Laracasts/Flash/functions.php',
     '752af1c2bdb339e8474c3c31b22b7d54' => $vendorDir . '/illuminate/html/helpers.php',
     '907c39b36ca90bbc699da4c70ce5bad5' => $vendorDir . '/mitulgolakiya/laravel-api-generator/src/Mitul/Generator/Constants/Constants.php',
+    'f18cc91337d49233e5754e93f3ed9ec3' => $vendorDir . '/laravelcollective/html/src/helpers.php',
 );
