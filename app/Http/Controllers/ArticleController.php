@@ -38,7 +38,7 @@ class ArticleController extends AppBaseController
 
 		return view('articles.index')
 		    ->with('articles', $articles)
-		    ->with('attributes', $attributes);;
+		    ->with('attributes', $attributes);
 	}
 
 	/**
