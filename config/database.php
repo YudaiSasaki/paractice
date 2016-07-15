@@ -71,7 +71,7 @@ return [
             'host' => 'testrds1.chos7pnvgsad.ap-northeast-1.rds.amazonaws.com',
             'port' => '3306',
             'database' => 'testdb',
-            'username' => 'forge',
+            'username' => 'master',
             'password' => 'sasaki612_B',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
