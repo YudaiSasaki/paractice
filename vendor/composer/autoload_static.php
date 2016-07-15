@@ -16,6 +16,9 @@ class ComposerStaticInitc655f8bc4ea86c0019a4592f71ef83c8
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        'e23faeee409e941dc9b4c80386209c39' => __DIR__ . '/..' . '/laracasts/flash/src/Laracasts/Flash/functions.php',
+        '752af1c2bdb339e8474c3c31b22b7d54' => __DIR__ . '/..' . '/illuminate/html/helpers.php',
+        '907c39b36ca90bbc699da4c70ce5bad5' => __DIR__ . '/..' . '/mitulgolakiya/laravel-api-generator/src/Mitul/Generator/Constants/Constants.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -59,6 +62,7 @@ class ComposerStaticInitc655f8bc4ea86c0019a4592f71ef83c8
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Mitul\\' => 6,
         ),
         'L' => 
         array (
@@ -66,6 +70,7 @@ class ComposerStaticInitc655f8bc4ea86c0019a4592f71ef83c8
         ),
         'I' => 
         array (
+            'Illuminate\\Html\\' => 16,
             'Illuminate\\' => 11,
         ),
         'F' => 
@@ -184,9 +189,17 @@ class ComposerStaticInitc655f8bc4ea86c0019a4592f71ef83c8
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'Mitul\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mitulgolakiya/laravel-api-generator/src/Mitul',
+        ),
         'League\\Flysystem\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
+        ),
+        'Illuminate\\Html\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/html',
         ),
         'Illuminate\\' => 
         array (
@@ -239,6 +252,13 @@ class ComposerStaticInitc655f8bc4ea86c0019a4592f71ef83c8
             'Mockery' => 
             array (
                 0 => __DIR__ . '/..' . '/mockery/mockery/library',
+            ),
+        ),
+        'L' => 
+        array (
+            'Laracasts\\Flash' => 
+            array (
+                0 => __DIR__ . '/..' . '/laracasts/flash/src',
             ),
         ),
         'J' => 
