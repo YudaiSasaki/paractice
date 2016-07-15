@@ -151,6 +151,13 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * laravel-api-generator
+         */
+        Illuminate\Html\HtmlServiceProvider,
+        Laracasts\Flash\FlashServiceProvider,
+        Mitul\Generator\GeneratorServiceProvider,
+
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
@@ -204,6 +211,12 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * laravel-api-generator
+         */
+        'Form'  => Illuminate\Html\FormFacade,
+        'Html'  => Illuminate\Html\HtmlFacade,
+        'Flash' => Laracasts\Flash\Flash,
     ],
 
 ];
