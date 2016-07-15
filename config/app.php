@@ -153,7 +153,7 @@ return [
         /*
          * laravel-api-generator
          */
-        Illuminate\Html\HtmlServiceProvider::class,
+//        Illuminate\Html\HtmlServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Mitul\Generator\GeneratorServiceProvider::class,
 
@@ -214,8 +214,8 @@ return [
         /*
          * laravel-api-generator
          */
-        'Form'  => Illuminate\Html\FormFacade::class,
-        'Html'  => Illuminate\Html\HtmlFacade::class,
+//        'Form'  => Illuminate\Html\FormFacade::class,
+//        'Html'  => Illuminate\Html\HtmlFacade::class,
         'Flash' => Laracasts\Flash\Flash::class,
     ],
 
