@@ -10,7 +10,7 @@
             <h1 class="pull-left">Articles</h1>
             <a class="btn btn-primary pull-right" style="margin-top: 25px" href="{!! route('articles.create') !!}">Add New</a>
         </div>
-        {!! Form::open(['method' => 'POST', 'route' => 'http://google.com', 'class' => 'form-horizontal']) !!}
+        {!! Form::open(['method' => 'POST', 'class' => 'form-horizontal']) !!}
 
             boottext
 
