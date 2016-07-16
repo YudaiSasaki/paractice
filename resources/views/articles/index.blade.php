@@ -10,15 +10,6 @@
             <h1 class="pull-left">Articles</h1>
             <a class="btn btn-primary pull-right" style="margin-top: 25px" href="{!! route('articles.create') !!}">Add New</a>
         </div>
-        {!! Form::open(['method' => 'POST', 'class' => 'form-horizontal']) !!}
-
-            boottext
-
-            <div class="btn-group pull-right">
-                {!! Form::reset("Reset", ['class' => 'btn btn-warning']) !!}
-                {!! Form::submit("Add", ['class' => 'btn btn-success']) !!}
-            </div>
-        {!! Form::close() !!}
         <div class="row">
             @if($articles->isEmpty())
                 <div class="well text-center">No Articles found.</div>
