@@ -28,7 +28,7 @@
 					<td>{!! $article->body !!}</td>
                             <td>
                                 <a href="{!! route('articles.edit', [$article->id]) !!}"><i class="glyphicon glyphicon-edit"></i></a>
-                                <a href="{!! route('articles.delete', [$article->id]) !!}" onclick="return confirm('Are you sure wants to delete this Article?')"><i class="glyphicon glyphicon-remove"></i></a>
+                                <a href="{!! route('articles.delete', [$article->id]) !!}" onclick="return confirm('削除してもよろしいですか?')"><i class="glyphicon glyphicon-remove"></i></a>
                             </td>
                         </tr>
                     @endforeach
