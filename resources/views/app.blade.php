@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>@yield('title') - 佐々木練習</title>
     <link rel="shortcut icon" href="{{{ url('images/favicon.ico') }}}" />
-    <link rel="stylesheet" href="{{{ url('css/bootstrap.css') }}}">
+    <link rel="stylesheet" href="{{{ url('assets/css/bootstrap.css') }}}">
     <link rel="stylesheet" href="{{{ url('css/datepicker.css') }}}">
     <link rel="stylesheet" href="{{{ url('css/bootstrap-timepicker.min.css') }}}">
     <link rel="stylesheet" href="{{{ url('css/base.css') }}}">
